@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NG One — Building Next-Generation Learning</title>
+<meta name="description" content="NG One is the studio behind Climb Up and future learning products designed for students." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav-row">
+    <a href="#home" class="logo">
+      <span class="logo-text"><span class="ng">NG</span> <span class="one">One</span></span>
+    </a>
+    <nav class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#founder">Founder</a>
+      <a href="#vision">Vision</a>
+      <a href="#showcase" class="nav-cta">Meet Climb Up</a>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" id="mobilePanel">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#founder">Founder</a>
+    <a href="#vision">Vision</a>
+    <a href="#showcase">Meet Climb Up</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-copy">
+        <div class="eyebrow-line">
+          <div class="tri-rule compact"><span class="o"></span><span class="w"></span><span class="g"></span></div>
+        </div>
+        <h1>We build learning products students actually want to open.</h1>
+        <p class="lede">NG One is a small studio designing modern, gamified learning experiences for schools and students — starting with our first product, Climb Up.</p>
+        <div class="cta-row">
+          <a href="#showcase" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 3l14 9-14 9V3z"/></svg>
+            Meet Climb Up
+          </a>
+          <a href="#about" class="btn btn-ghost">About NG One</a>
+        </div>
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Class 2–12 · Gamified Learning Path
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ascending step illustration">
+          <defs>
+            <linearGradient id="stepGreen" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#2FA562"/>
+              <stop offset="1" stop-color="#0F5C34"/>
+            </linearGradient>
+          </defs>
+          <rect x="40"  y="300" width="80" height="80" rx="14" fill="#E4F3E9"/>
+          <rect x="130" y="240" width="80" height="140" rx="14" fill="#C7E7D3"/>
+          <rect x="220" y="170" width="80" height="210" rx="14" fill="url(#stepGreen)"/>
+          <rect x="310" y="90"  width="80" height="290" rx="14" fill="#FF8A3D"/>
+          <path d="M70 300 L160 240 L250 170 L345 95" stroke="#12241A" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" fill="none" opacity="0.35"/>
+          <circle cx="345" cy="95" r="12" fill="#12241A"/>
+          <circle cx="345" cy="95" r="5" fill="#FBFDFB"/>
+          <path d="M20 400 Q140 380 200 400 T420 390" stroke="#FF8A3D" stroke-width="3" fill="none" opacity="0.8"/>
+          <path d="M20 408 Q140 388 200 408 T420 398" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.9"/>
+          <path d="M20 416 Q140 396 200 416 T420 406" stroke="#1E8E4F" stroke-width="3" fill="none" opacity="0.8"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BANNER ============ -->
+  <div class="container banner-wrap">
+    <div class="banner-slot">
+      <div class="label"><img src="banner.png" alt="NG One banner"></div>
+    </div>
+  </div>
+
+  <!-- ============ APP SHOWCASE ============ -->
+  <section class="showcase" id="showcase">
+    <div class="container">
+      <div class="section-head">
+        <div class="tri-rule compact"><span class="o"></span><span class="w"></span><span class="g"></span></div>
+        <h2>See Climb Up in your pocket</h2>
+        <p>Four screens, one learning journey.</p>
+      </div>
+
+      <div class="phone-grid">
+        <div class="phone-card">
+          <div class="phone-frame">
+            <div class="phone-screen"><img src="clibmup_img_ui.png" alt="Climb Up home screen"></div>
+          </div>
+          <div class="phone-caption">Home<span>Streak, CP &amp; today's goal</span></div>
+        </div>
+        <div class="phone-card">
+          <div class="phone-frame">
+            <div class="phone-screen"><img src="Screenshot 2026-09-13 132038.png" alt="Climb Up learning path screen"></div>
+          </div>
+          <div class="phone-caption">Learn<span>The vertical learning path</span></div>
+        </div>
+        <div class="phone-card">
+          <div class="phone-frame">
+            <div class="phone-screen"><img src="Screenshot 2026-09-13 132104.png" alt="Climb Up leaderboard screen"></div>
+          </div>
+          <div class="phone-caption">Leaderboard<span>Climb the ranks</span></div>
+        </div>
+        <div class="phone-card">
+          <div class="phone-frame">
+            <div class="phone-screen"><img src="Screenshot 2026-09-13 132151.png" alt="Climb Up rewards screen"></div>
+          </div>
+          <div class="phone-caption">Rewards<span>Redeem CP for prizes</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <div class="section-head" style="margin-bottom:1.4rem;">
+          <div class="tri-rule compact"><span class="o"></span><span class="w"></span><span class="g"></span></div>
+          <h2>About NG One</h2>
+        </div>
+        <p>NG One is a small product studio focused on one problem: most learning apps are built for grown-ups to approve, not for students to enjoy. We design differently — starting from what keeps a student opening the app on day 30, not just day one.</p>
+        <p>Climb Up is our first product: a class-wise learning path for students from Class 2 to Class 12, built around steady progress, daily streaks, and rewards that feel worth earning.</p>
+      </div>
+      <div class="pillar-list">
+        <div class="pillar">
+          <div class="rule"></div>
+          <div>
+            <h3>Built for students, not just parents</h3>
+            <p>Every screen is designed to be opened by a 10-year-old without help — simple, visual, and quick to understand.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="rule"></div>
+          <div>
+            <h3>Content that keeps up with the classroom</h3>
+            <p>Lessons, chapters and quizzes are managed centrally, so what a student sees stays current without needing a new app update.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="rule"></div>
+          <div>
+            <h3>Progress you can actually see</h3>
+            <p>Streaks, CP and a visible learning path turn daily practice into something students want to keep up, not something they're told to do.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section id="founder" style="background:var(--mist);">
+    <div class="container founder-grid">
+
+      <div class="founder-portrait">
+        <span class="placeholder-label">Founder photo<br>goes here</span>
+        <!-- <img src="assets/founder.jpg" alt="Founder Name"> --> <img src="g.jpeg" alt="">
+      </div>
+
+      <div class="founder-copy">
+        <span class="quote-mark">&quot;</span>
+        <p style="font-size:1.15rem; color:var(--ink-soft); max-width:52ch;">NG One was started with a simple goal — to make learning more fun, accessible, and useful through technology.</p>
+
+        <div class="founder-name-row">
+          <span class="founder-name">Singh Govindakumar Vikas</span>
+
+          <a class="linkedin-link"
+             href="https://www.linkedin.com/in/govinda04singh/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Founder Name on LinkedIn">
+            <svg viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="founder-role">Founder &amp; CEO, NG One</div>
+        <div class="founder-note"><!-- Placeholder — send over the founder bio, photo and LinkedIn URL whenever they're ready and this section gets swapped in directly. --> </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISION ============ -->
+  <section class="vision" id="vision">
+    <div class="container">
+      <div class="tri-rule compact"><span class="o"></span><span class="w"></span><span class="g"></span></div>
+      <h2>A student in any classroom should have a learning app that feels like it was made for them — not adapted for them.</h2>
+      <p class="support">That's the standard NG One is building every product against, starting with Climb Up.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-text"><span class="ng">NG</span> <span class="one">One</span></span>
+        <p>Building focused, student-first learning products — starting with Climb Up.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#founder">Founder</a>
+        <a href="#vision">Vision</a>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#showcase">Climb Up</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>All rights reserved. &copy; 2026 NG One.</span>
+      <span>Where Learning Meets the Fun Zone.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
